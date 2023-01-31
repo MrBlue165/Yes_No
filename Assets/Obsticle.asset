@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Obsticle
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"e2874e2b-5dca-4b99-aec6-0f00a04934ac","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":-2.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":2.0,"y":-183.0},"guid":"4269aacd-b018-4500-9209-5b5087cbd2b7","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"b1670125-e247-4593-b2f6-b7991f0d889b","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
